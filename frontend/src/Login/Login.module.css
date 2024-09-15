@@ -1,0 +1,15 @@
+.loginForm {
+    @apply flex flex-col items-center justify-center gap-5; 
+}
+
+.loginForm label {
+    @apply flex flex-col;
+}
+
+.loginForm input {
+    @apply m-5 w-80 h-10 px-3 border border-gray-300 rounded-md;
+}
+
+.error {
+    @apply text-red-500;
+}
