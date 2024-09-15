@@ -1,3 +1,7 @@
+
+body {
+    @apply items-center justify-center;
+}
 .loginForm {
     @apply flex flex-col items-center justify-center gap-5; 
 }
