@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar/Navbar';
 import styles from './Homepage.module.css';
-const Homepage: React.FC = () => {
+const HomePage: React.FC = () => {
     return (
         <>
             <Navbar username="Alice" />
@@ -16,4 +16,4 @@ const Homepage: React.FC = () => {
     );
 };
 
-export default Homepage;
+export default HomePage;
